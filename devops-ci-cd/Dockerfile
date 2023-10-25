@@ -1,4 +1,4 @@
-FROM catthehacker/ubuntu:act-22.04
+FROM ubuntu:latest
 
 RUN apt-get update -y && apt-get install -y shunit2 jq
 
