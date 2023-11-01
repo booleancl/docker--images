@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update -y && apt-get install -y shunit2 jq wget
+RUN apt-get update -y && apt-get install -y shunit2 jq wget curl
 
 USER root
 WORKDIR /root/app
